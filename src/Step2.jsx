@@ -2,7 +2,7 @@ import React from "react";
 
 const Step2 = ({ formData, handleChange, nextStep, prevStep }) => (
   <div className="border border-gray-300 p-8 rounded-lg shadow-lg max-w-md mx-auto bg-none/70 backdrop-blur-md">
-    <h2 className="text-3xl font-semibold text-gray-700 mb-6 text-center">
+    <h2 className="text-3xl font-semibold text-white mb-6 text-center">
       Additional Information
     </h2>
 

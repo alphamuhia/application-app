@@ -2,14 +2,14 @@ import React from "react";
 
 const Step3 = ({ formData, handleChange, nextStep, prevStep }) => (
   <div className="border border-gray-300 p-8 rounded-lg shadow-lg max-w-md mx-auto bg-none/70 backdrop-blur-md">
-    <h2 className="text-3xl font-semibold text-gray-700 mb-6 text-center">
+    <h2 className="text-3xl font-semibold text-white mb-6 text-center">
       Emergency Contacts
     </h2>
 
     <div className="space-y-6">
       {/* First Emergency Contact */}
       <div>
-        <label className="text-gray-600 font-medium">
+        <label className="text-white font-medium">
           First Emergency Contact:
         </label>
         <input
@@ -37,7 +37,7 @@ const Step3 = ({ formData, handleChange, nextStep, prevStep }) => (
 
       {/* Second Emergency Contact */}
       <div>
-        <label className="text-gray-600 font-medium">
+        <label className="text-white font-medium">
           Second Emergency Contact:
         </label>
         <input
